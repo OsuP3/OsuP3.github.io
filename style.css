@@ -55,8 +55,26 @@ table {
     margin-right: auto;
     width: 50%;
   }
+.socials{
+  margin-left: 15px;
+  max-width: 40px;
+  max-height: 40px;
+}
+.round {
+  border-radius: 50%;
+  overflow: hidden;
+  width: 300px;
+  height: 300px;
+  background: no-repeat 50%;
+  object-fit: cover;
+}
+.round img {
+   display: block;
+   height: 100%;
+   width: 100%;
+}
 h2 {
-    text-indent: 5%; 
+    text-indent: 0%; 
     /*font:message-box;*/
     font-size: 12px; 
     line-height:20px; 
@@ -70,13 +88,23 @@ h1 {
 
 }
 h3 {
+    max-height: 38px;
+    margin-left: 60%;
     background-color: lightgray;
     margin: auto;
-    width: 50%;
-    border: 3px solid rgb(0, 0, 0);
+    width: 70px;
+    float: left;
+
+    /*border: 3px solid rgb(0, 0, 0);*/
     padding: 10px;
     
-  }
-  a {
-    text-decoration: none;
-  }
+}
+
+h7 {
+  float: left; 
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
